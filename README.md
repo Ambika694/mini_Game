@@ -1,1 +1,1 @@
-This a number guesing game
+This my mini python project
