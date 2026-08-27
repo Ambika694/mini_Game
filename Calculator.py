@@ -63,6 +63,9 @@ while True:
           print(f"Rueslt : {result}")
           history.append(f"{num1} ** {num2} = {result}")
     elif option == "7":
+        if not history:
+            print("there no histor yet")
+            
          for i in history:
               print(i)
          
