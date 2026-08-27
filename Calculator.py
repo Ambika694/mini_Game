@@ -65,8 +65,8 @@ while True:
     elif option == "7":
         if not history:
             print("there no histor yet")
-            
-         for i in history:
+        else:   
+             for i in history:
               print(i)
          
 
